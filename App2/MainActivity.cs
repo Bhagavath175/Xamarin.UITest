@@ -18,7 +18,7 @@ namespace App2
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            AppCenter.Start("{Your app secret here}",
+            AppCenter.Start("e25abbca-1a4a-4955-a27d-718637c9afbb",
                    typeof(Analytics), typeof(Crashes));
 
             base.OnCreate(savedInstanceState);
